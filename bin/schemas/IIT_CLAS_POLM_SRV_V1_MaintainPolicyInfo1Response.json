@@ -1,0 +1,250 @@
+{
+  "type" : "object",
+  "properties" : {
+    "CCWM0141" : {
+      "type" : "object",
+      "properties" : {
+        "MIR_MAP_INTERFACE" : {
+          "type" : "object",
+          "properties" : {
+            "MIR_LENGTH" : {
+              "minimum" : -9999,
+              "maximum" : 9999,
+              "type" : "integer"
+            },
+            "MTPI_PARMS" : {
+              "type" : "object",
+              "properties" : {
+                "MTPI_CURSOR_POS" : {
+                  "minimum" : -9999,
+                  "maximum" : 9999,
+                  "type" : "integer"
+                },
+                "MTPI_TRANSACTION_ID" : {
+                  "maxLength" : 4,
+                  "type" : "string"
+                },
+                "MTPI_PROGRAM_ID" : {
+                  "maxLength" : 8,
+                  "type" : "string"
+                },
+                "MTPI_APPL_ID" : {
+                  "maxLength" : 2,
+                  "type" : "string"
+                },
+                "MTPI_COMPANY_CODE" : {
+                  "maxLength" : 2,
+                  "type" : "string"
+                },
+                "MTPI_COUNTRY_CODE" : {
+                  "maxLength" : 2,
+                  "type" : "string"
+                },
+                "MTPI_CURRENCY_CODE" : {
+                  "maxLength" : 2,
+                  "type" : "string"
+                },
+                "MTPI_PROCESS_DATE" : {
+                  "maxLength" : 10,
+                  "type" : "string"
+                },
+                "MTPI_EDIT_LANG" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_USER_LANG" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_USER_SECURITY" : {
+                  "maxLength" : 50,
+                  "type" : "string"
+                },
+                "MTPI_SESSION_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_MAP_SCREEN_NO" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_PROCESS_PCL_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_PCL_CURR_ENTRY" : {
+                  "minimum" : -9999,
+                  "maximum" : 9999,
+                  "type" : "integer"
+                },
+                "MTPI_PCL_MAX_ENTRY" : {
+                  "minimum" : -9999,
+                  "maximum" : 9999,
+                  "type" : "integer"
+                },
+                "MTPI_PCL_NEXT_ENTRY_ID" : {
+                  "maxLength" : 4,
+                  "type" : "string"
+                },
+                "MTPI_CMD_LINE" : {
+                  "maxLength" : 10,
+                  "type" : "string"
+                },
+                "MTPI_APPL_WORK_AREA" : {
+                  "maxLength" : 300,
+                  "type" : "string"
+                },
+                "MTPI_USER_ID" : {
+                  "maxLength" : 8,
+                  "type" : "string"
+                },
+                "MTPI_USER_SEC_CLASS" : {
+                  "maxLength" : 10,
+                  "type" : "string"
+                },
+                "MTPI_TERMINAL_ID" : {
+                  "maxLength" : 4,
+                  "type" : "string"
+                },
+                "MTPI_SYSTEM_DATE" : {
+                  "multipleOf" : 1,
+                  "minimum" : -9999999,
+                  "maximum" : 9999999,
+                  "type" : "number",
+                  "format" : "decimal"
+                },
+                "MTPI_SYSTEM_TIME" : {
+                  "multipleOf" : 1,
+                  "minimum" : -9999999,
+                  "maximum" : 9999999,
+                  "type" : "number",
+                  "format" : "decimal"
+                },
+                "MTPI_SYSTEM_DATE_INT" : {
+                  "maxLength" : 10,
+                  "type" : "string"
+                },
+                "MTPI_USER_MSGE_CLASS" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_USER_CON_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_USER_LEVEL_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_USER_BRANCH_CODE" : {
+                  "maxLength" : 5,
+                  "type" : "string"
+                },
+                "MTPI_TASK_ID" : {
+                  "maxLength" : 4,
+                  "type" : "string"
+                },
+                "MTPI_USER_RPT_DSTRB_CD" : {
+                  "maxLength" : 5,
+                  "type" : "string"
+                },
+                "MTPI_USER_SESN_BTCH_NUM" : {
+                  "multipleOf" : 1,
+                  "minimum" : -9999999,
+                  "maximum" : 9999999,
+                  "type" : "number",
+                  "format" : "decimal"
+                },
+                "MTPI_TIMES_THRU_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_SEND_MAP_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                },
+                "MTPI_CURSOR_POS_IND" : {
+                  "maxLength" : 1,
+                  "type" : "string"
+                }
+              }
+            },
+            "MIR_MSGE_DATA" : {
+              "type" : "object",
+              "properties" : {
+                "MIR_MSGE_MAX_LINES" : {
+                  "minimum" : -9999,
+                  "maximum" : 9999,
+                  "type" : "integer"
+                },
+                "MIR_MSGE_LINES_USED" : {
+                  "minimum" : -9999,
+                  "maximum" : 9999,
+                  "type" : "integer"
+                }
+              }
+            },
+            "MIR_SCREEN_1" : {
+              "type" : "object",
+              "properties" : {
+                "MIR_SCREEN_1_FIELDS" : {
+                  "type" : "object",
+                  "properties" : {
+                    "MIR_TRNID" : {
+                      "maxLength" : 4,
+                      "type" : "string"
+                    },
+                    "MIR_FORCE" : {
+                      "maxLength" : 1,
+                      "type" : "string"
+                    },
+                    "MIR_HDG" : {
+                      "maxLength" : 35,
+                      "type" : "string"
+                    },
+                    "MIR_MSFLDA" : {
+                      "maxLength" : 8,
+                      "type" : "string"
+                    },
+                    "MIR_MSFLDB" : {
+                      "maxLength" : 8,
+                      "type" : "string"
+                    },
+                    "MIR_POLNO" : {
+                      "maxLength" : 9,
+                      "type" : "string"
+                    },
+                    "MIR_NAME" : {
+                      "maxLength" : 50,
+                      "type" : "string"
+                    },
+                    "MIR_STATUS" : {
+                      "maxLength" : 4,
+                      "type" : "string"
+                    },
+                    "MIR_PLAN" : {
+                      "maxLength" : 5,
+                      "type" : "string"
+                    },
+                    "MIR_APPDT" : {
+                      "maxLength" : 9,
+                      "type" : "string"
+                    },
+                    "MIR_ISSDT" : {
+                      "maxLength" : 9,
+                      "type" : "string"
+                    },
+                    "MIR_COMMENT" : {
+                      "maxLength" : 46,
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

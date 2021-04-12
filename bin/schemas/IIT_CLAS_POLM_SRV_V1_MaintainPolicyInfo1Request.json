@@ -1,0 +1,39 @@
+{
+  "type" : "object",
+  "properties" : {
+    "CCWM0141" : {
+      "type" : "object",
+      "properties" : {
+        "MIR_MAP_INTERFACE" : {
+          "type" : "object",
+          "properties" : {
+            "MTPI_PARMS" : {
+              "type" : "object",
+              "properties" : {
+                "MTPI_TASK_ID" : {
+                  "maxLength" : 4,
+                  "type" : "string",
+                  "default" : "2175"
+                }
+              }
+            },
+            "MIR_SCREEN_1" : {
+              "type" : "object",
+              "properties" : {
+                "MIR_SCREEN_1_FIELDS" : {
+                  "type" : "object",
+                  "properties" : {
+                    "MIR_POLNO" : {
+                      "maxLength" : 9,
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
